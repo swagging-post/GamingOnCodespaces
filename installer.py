@@ -12,22 +12,23 @@ def savejson(json):
 #####################
 
 Head="""
-# DesktopOnCodespaces Installer
+# GamingOnCodespaces Installer
 
-> DesktopOnCodespaces Allow you to run grapical linux and windows apps in your codespace for free.
+> GamingOnCodespaces Allow you to run grapical linux and windows apps in your codespace for free.
 
-It Actually Have
+It Includes:
 * Windows App Support (using wine)
 * Audio Support
+* Microphone Support
 * Root Access
 * Support File Persistance
-* Entierly in web browser
-* Bypass School Network
+* Entirely in your web browser
+* Bypasses School Network due to GitHub's IP
 * Fast VMs Using KVM (Windows and Linux)
 
 """
 InstallHead="""
-# DesktopOnCodespaces Installer
+# GamingOnCodespaces Installer Options
 """     
 
 LINES = ["KDE Plasma (Heavy)", "XFCE4 (Lightweight)", "I3 (Very Lightweight)"]
